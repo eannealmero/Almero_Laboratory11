@@ -9,7 +9,7 @@ for user in range(10):
 letters = int(input("Enter desired number of letters to print: "))
 
 for user in words:
-    if len(user) == letters:
+    if len(user) >= letters:
         length.append(user)
     else:
         continue     
